@@ -8,9 +8,9 @@ class Configuration(object):
         self.WORKDIR = Path("/vol/csedu-nobackup/course/IMC037_aimi/group07")
         self.RESOURCES = self.WORKDIR / "resources"
         # Starting weights for the I3D model
-        self.MODEL_RGB_I3D = (
-            self.RESOURCES / "model_rgb.pth"
-        )
+        # self.MODEL_RGB_I3D = (
+        #     self.RESOURCES / "model_rgb.pth"
+        # )
         
         # Data parameters
         # Path to the nodule blocks folder provided for the LUNA25 training data. 
